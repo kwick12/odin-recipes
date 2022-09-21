@@ -25,6 +25,10 @@ colour to individual recipes; title different
     font-family: "Georgia",sans-serif;
     color:rgb(216, 143, 143);
     margin:50px;
+    padding:10px;
+    border-radius:10px;
+    border-style:solid;
+    border-color:white;
  }
 
  .heading {
@@ -52,12 +56,13 @@ colour to individual recipes; title different
  }
 
  #favourite-text {
-    font-weight:900;
-    color:rgb(9, 132, 132);
+   font-size:30px;
+   font-family: "Brush Script MT",sans-serif;
+   font-weight:200;
  }
 
  .lol {
-    margin-top:245px
+    margin-top:205px
  }
 
  #bottom {
@@ -66,3 +71,32 @@ colour to individual recipes; title different
     font-size: 40px;
     margin-top:70px;
  }
+ #bottom-with-writing {
+   color:white;
+   background-color: black;
+   font-size:10px;
+   margin-bottom:40px;
+ }
+
+ button {
+   color:darkblue;
+   background-color:lightblue;
+   border-radius:10px;
+ }
+
+ button:hover {
+   background-color:lightgreen;
+ }
+
+#favourite:hover {
+   background-color:violet;
+ }
+
+.recipebutton {
+   color:red;
+   background-color:bisque;
+}
+
+.recipebutton:hover {
+   background-color: darkred;
+}
